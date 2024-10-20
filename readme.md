@@ -6,17 +6,17 @@ A CLI tool to manage [Neptune](https://github.com/uwu/neptune) on your system. N
 
 ### Download a binary
 
-Download from GitHub Releases: [neptunectl](https://github.com/espeon/neptunectl/releases/)
+Download from GitHub Releases: [neptunectl](https://github.com/inrixia/neptunectl/releases/)
 
 ### Install via cargo
 
-`cargo install --git https://github.com/espeon/neptunectl`
+`cargo install --git https://github.com/inrixia/neptunectl`
 
 ### Build manually
 
 You'll need Rust and Cargo installed (ideally via rustup).
 
-1. Clone via `git clone https://github.com/espeon/neptunectl`
+1. Clone via `git clone https://github.com/inrixia/neptunectl`
 2. Run `cargo build --release --all-features`
 3. Optionally install with `cargo install --path --all-features .`
 
