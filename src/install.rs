@@ -53,8 +53,8 @@ pub fn install(install: &NeptuneInstall, force: bool) -> Result<()> {
     if !install.orig_asar_path.exists() {
         info!(
             "Backing up {} to {}",
-            install.orig_asar_path.display(),
-            install.app_asar_path.display()
+            install.app_asar_path.display(), 
+												  install.orig_asar_path.display()
         );
         std::fs::rename(&install.app_asar_path, &install.orig_asar_path)?;
     }
